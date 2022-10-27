@@ -74,8 +74,7 @@ python main.py
 | Limited angle |                              BP                              |                             Ours                             |
 | :-----------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |      90°      | ![image-20221026214000039](README.assets/image-20221026214000039.png) | <img src="README.assets/image-20221026214114972.png" alt="image-20221026214114972" style="zoom: 25%;" /> |
-|      60°      | ![image-20221026214341655](README.assets/image-20221026214341655.png) | <img src="README.assets/image-20221026214328075.png" alt="image-20221026214328075" style="zoom:25%;" /> |
-|      30°      | ![image-20221026193249277](README.assets/image-20221026193249277.png) | <img src="README.assets/image-20221026214618134.png" alt="image-20221026214618134" style="zoom:25%;" /> |
+
 
 
 
