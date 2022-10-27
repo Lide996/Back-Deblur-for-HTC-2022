@@ -17,7 +17,7 @@ The [Helsinki Tomography Challenge 2022(HTC 2022)](https://www.fips.fi/HTC2022.p
 Concerning the above challenges, we propose an algorithm which is a combination of back-projection(BP) method and image deblurring network. To meet the requirements of the competition, the proposed algorithm consists of the following steps:
 - **BP**: The measured limited-angle sinogram is first processed by the BP method. In this part, the implement of the BP method is based on astra package.
 - **Deblur**: The reconstruction of the BP method is then passed to a deblurring network to recover the details of the phantom. The code of this network is based on *[Deep Residual Fourier Transformation for Single Image Deblurring](https://github.com/INVOKERer/DeepRFT)*. We modify and train the network to improve the quality of the reconstruction.
-- **Super resolution**: Since the competition requires that the output figure should have size 512 $\times$ 512, and the deblurring network is hard to train with this size, we use the super resolution technology to meet the requirements. This network is based on *[`Residual Dense Network for Image Super-Resolution`](https://github.com/yulunzhang/RDN)*.
+- **Super resolution**: Since the competition requires that the output figure should have size 512 $\times$ 512, and the deblurring network is hard to train with this size, we use the super resolution technology to meet the requirements. This network is based on *[Residual Dense Network for Image Super-Resolution](https://github.com/yulunzhang/RDN)*.
 - **Threshold**: The result is obtained by applying a threshold to the high-resolution image.    
 
 
